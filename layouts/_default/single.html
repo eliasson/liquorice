@@ -1,0 +1,43 @@
+{{ template "theme/partials/head.html" . }}
+{{ template "theme/partials/header.html" . }}
+
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <article class="li-article">
+                    <header class="li-article-header">
+                        <h1 class="li-article-title">{{ .Title }}</h1>
+                        <time class="li-article-date">{{ .Date.Format "Monday, January 2, 2006" }}</time>
+                    </header>
+                    <section>
+                        {{ .Content }}
+                    </section>
+                </article>
+            </div>
+        </div>
+        <div class="row li-pagination">
+            <div class="eight columns">
+                <div class="li-pagination-previous">
+                    {{with .Prev}}
+                        Later article<br />
+                        <a href="{{.Permalink}}"> {{.Title}}</a>
+                    {{else}}
+                        &nbsp;
+                    {{end}}
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="li-pagination-next">
+                    {{with .Next}}
+                        Older article<br />
+                        <a href="{{.Permalink}}"> {{.Title}}</a>
+                    {{else}}
+                        &nbsp;
+                    {{end}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+{{ template "theme/partials/footer.html" . }}
+{{ template "theme/partials/tail.html" . }}
