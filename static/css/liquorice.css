@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6 {
 .li-page-header {
     background-color: #202020;
     color: #fff;
-    padding: 16px 0px;
+    padding: 32px 0px;
 }
 
 .li-page-header ul {
@@ -91,6 +91,7 @@ h1,h2,h3,h4,h5,h6 {
     display: none;
 }
 
+
 /** Article *****************************************************************/
 .li-article {
     margin-bottom: 32px;
@@ -100,6 +101,10 @@ ul.li-article-list {
     list-style: none;
     margin: 0px;
     padding: 0px;
+}
+
+.li-article-list time {
+    float: right;
 }
 
 .li-article-section {
@@ -142,8 +147,20 @@ ul.li-article-list {
     float: right;
 }
 
+.li-main-article-list {
+    margin-top: 128px;
+}
+
 /** Mobile Portrait (320px) **************************************************/
 @media only screen and (max-width: 767px) {
+    .li-page-header {
+        padding: 16px 0px;
+    }
+
+    .li-main-article-list {
+        margin-top: 64px;
+    }
+
     .li-page-header .li-menu-icon {
         cursor: pointer;
         display: block;

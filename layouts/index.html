@@ -4,11 +4,13 @@
     <div class="container">
         <div class="row">
             <div class="sixteen columns">
-                {{ range first 10 .Data.Pages }}
-                    <div class="li-article">
-                        {{ .Render "summary"}}
-                    </div>
-                {{ end }}
+                <div class="li-main-article-list">
+                    {{ range first 10 .Data.Pages }}
+                        <div class="li-article">
+                            {{ .Render "summary"}}
+                        </div>
+                    {{ end }}
+                </div>
             </div>
         </div>
     </div>
