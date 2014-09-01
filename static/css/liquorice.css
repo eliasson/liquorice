@@ -97,6 +97,13 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 32px;
 }
 
+.li-article pre {
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 32px;
+}
+
 ul.li-article-list {
     list-style: none;
     margin: 0px;
