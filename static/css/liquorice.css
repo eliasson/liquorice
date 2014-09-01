@@ -186,8 +186,12 @@ ul.li-article-list {
         width: 100%;
     }
 
-    .li-page-header .li-menu-items li:nth-of-type(1) {
-        border-bottom: 1px solid #ccc;
+    .li-page-header .li-menu-items li {
+        border-top: 1px solid #ccc;
+    }
+
+    .li-page-header .li-menu-items li:first-of-type  {
+        border-top: none;
     }
 
     .li-pagination-previous,
