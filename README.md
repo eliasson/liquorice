@@ -8,6 +8,21 @@ Liquorice is a small black and white theme for [Hugo](https://github.com/spf13/h
 Liquorice needs at least version 0.12 of Hugo, as it uses features such as partials.
 
 
+### Partials
+
+There are a few partials that is of great interest to override
+
+
+#### author
+
+The author partial is added at the end of each single page (such as blog posts) and by default only prints the name of the author registered in the site params, e.g. in your `config.toml`
+
+    [params]
+        author = "Markus"
+
+In order to override and have your own markup appended to single pages, just create the file `layouts/partials/author.html` and roll your own.
+
+
 ### Shortcodes
 
 Liquorice comes with these additional shortcodes:
