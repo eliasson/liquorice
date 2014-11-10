@@ -2,5 +2,5 @@ author = "Markus Eliasson"
 description = "Liquorice is a small black and white theme for Hugo."
 license = "MIT"
 name = "liquorice"
-source_repo = "http://github.com/eliasson/liquorice"
+source_repo = "https://github.com/eliasson/liquorice"
 tags = ["", ""]
