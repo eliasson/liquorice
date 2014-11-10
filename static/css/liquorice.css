@@ -118,7 +118,8 @@ ul.li-article-list {
     padding: 16px 0px;
 }
 
-.li-article-date {
+.li-article-date,
+.li-article-taxonomies {
     color: #999;
     font-size: smaller;
 }
