@@ -5,7 +5,7 @@ Liquorice is a small black and white theme for [Hugo](https://github.com/spf13/h
 
 ### Dependencies
 
-Liquorice needs at least version 0.14 of Hugo.
+Liquorice needs at least version 0.20 of Hugo.
 
 
 ### Partials
