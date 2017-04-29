@@ -5,4 +5,4 @@ licenselink = "https://github.com/eliasson/liquorice/blob/master/LICENSE"
 name = "liquorice"
 source_repo = "https://github.com/eliasson/liquorice"
 tags = ["", ""]
-min_version=0.14
+min_version=0.20
