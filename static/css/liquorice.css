@@ -42,6 +42,17 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: lighter;
 }
 
+pre {
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 32px;
+}
+
+pre code {
+    display: inline-block;
+}
+
 /** Screen furniture ********************************************************/
 .li-page-header {
     background-color: #202020;
@@ -91,7 +102,6 @@ h1,h2,h3,h4,h5,h6 {
     display: none;
 }
 
-
 /** Article *****************************************************************/
 .li-article {
     margin-bottom: 32px;
@@ -100,13 +110,6 @@ h1,h2,h3,h4,h5,h6 {
 .li-article img {
     height: auto;
     max-width: 100%;
-}
-
-.li-article pre {
-    background-color: #fafafa;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 32px;
 }
 
 ul.li-article-list {
