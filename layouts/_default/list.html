@@ -6,7 +6,7 @@
             <div class="sixteen columns">
                 <h1>{{.Title}}</h1>
                 <ul class="li-article-list">
-                    {{ range .Data.Pages }}
+                    {{ range .Site.RegularPages }}
                         <li>
                             <time class="li-article-date">{{ .Date.Format "January, 2, 2006" }}</time>
                             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
